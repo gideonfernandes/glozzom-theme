@@ -1,0 +1,10 @@
+.navbar .nav-item > .nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar .nav-item.active {
+	border-left: 3px solid #444;
+}
