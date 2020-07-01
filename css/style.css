@@ -47,3 +47,19 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 }
+
+#video-play {
+	position: relative;
+	min-height: 200px;
+	background-image: url('../img/media.jpg');
+	background-attachment: fixed;
+	background-position: 0 -300px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	overflow-x: hidden;
+}
+
+#video-play a {
+	color: white;
+}
