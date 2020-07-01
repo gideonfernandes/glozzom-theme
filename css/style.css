@@ -57,7 +57,7 @@
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 #video-play a {

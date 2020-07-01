@@ -162,10 +162,53 @@
           <div class="container p-5">
             <a href="#" class="video" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal">
               <i class="fas fa-play fa-3x">
-                <h3 class="h1 mt-3">Veja o que fazemos!</h3>
+                <h3 class="h1 pt-3">Veja o que fazemos!</h3>
               </i>
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h3 class="h1 text-center">Galeria de Fotos</h3>
+      <p class="text-center">Veja nossas fotos</p>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery" data-width="560" data-height="560">
+            <img src="https://source.unsplash.com/random/560x560" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery" data-width="561" data-height="561">
+            <img src="https://source.unsplash.com/random/561x561" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery" data-width="562" data-height="562">
+            <img src="https://source.unsplash.com/random/562x562" class="img-fluid" />
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/563x563" data-toggle="lightbox" data-gallery="img-gallery" data-width="563" data-height="563">
+            <img src="https://source.unsplash.com/random/563x563" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/564x564" data-toggle="lightbox" data-gallery="img-gallery" data-width="564" data-height="564">
+            <img src="https://source.unsplash.com/random/564x564" class="img-fluid" />
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="https://source.unsplash.com/random/565x565" data-toggle="lightbox" data-gallery="img-gallery" data-width="565" data-height="565">
+            <img src="https://source.unsplash.com/random/565x565" class="img-fluid" />
+          </a>
         </div>
       </div>
     </div>
@@ -196,6 +239,12 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
 
     // Video Play
     $(function () {
