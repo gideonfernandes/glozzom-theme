@@ -1,0 +1,79 @@
+.navbar .nav-item > .nav-link {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar .nav-item.active {
+	border-left: 3px solid #444;
+}
+
+.carousel-item {
+	height: 450px;
+}
+
+.carousel-image-1 {
+	background-image: url('../img/image1.jpg');
+	background-size: cover;
+}
+
+.carousel-image-2 {
+	background-image: url('../img/image2.jpg');
+	background-size: cover;
+}
+
+.carousel-image-3 {
+	background-image: url('../img/image3.jpg');
+	background-size: cover;
+}
+
+#home-heading {
+	position: relative;
+	min-height: 200px;
+	background-image: url('../img/lights.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	overflow-x: hidden;
+}
+
+.dark-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+	position: relative;
+	min-height: 200px;
+	background-image: url('../img/media.jpg');
+	background-attachment: fixed;
+	background-position: 0 -300px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+}
+
+#video-play a {
+	color: white;
+}
+
+#page-header {
+	height: 200px;
+	background-image: url('../img/image1.jpg');
+	background-position: 0 -360px;
+	background-attachment: fixed;
+	color: white;
+	border-bottom: 1px solid #eee;
+	padding-top: 50px;
+}
+
+#about-img {
+	margin-top: -50px;
+}
