@@ -77,3 +77,21 @@
 #about-img {
 	margin-top: -50px;
 }
+
+#faq .card {
+	border: #444;
+}
+
+#faq a {
+	text-decoration: none;
+	color: white;
+}
+
+#faq .card-body, #faq .card-header {
+	background-color: #333;
+}
+
+#main-footer {
+	color: white;
+	background-color: black;
+}
