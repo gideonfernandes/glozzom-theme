@@ -142,6 +142,43 @@
     </div>
   </section>
 
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="bg-dark text-white p-4">
+    <div class="container">
+      <h2 class="text-center">Testimonials</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, earum!</p>
+                <footer class="blockquote-footer">John Doe da
+                  <cite title="Empresa 1">Empresa 1</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, earum!</p>
+                <footer class="blockquote-footer">Sam Smith da
+                  <cite title="Empresa 2">Empresa 2</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, earum!</p>
+                <footer class="blockquote-footer">Meghan Williams da
+                  <cite title="Empresa 3">Empresa 3</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer id="main-footer" class="text-center p-4">
     <div class="container">
@@ -164,6 +201,13 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Set slick slider for testimonials
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
   </script>
 </body>
 </html>
